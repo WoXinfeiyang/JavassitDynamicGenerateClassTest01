@@ -4,7 +4,10 @@ import java.lang.reflect.Method;
 import javassist.*;
 import javassist.bytecode.AccessFlag;
 import javassist.compiler.CompileError;
-
+/*
+ ²Î¿¼×ÊÁÏ:https://blog.csdn.net/ShuSheng0007/article/details/81269295
+ https://blog.csdn.net/shuzhe66/article/details/39319121
+ */
 public class JavassitDynamicGenerateClassTest01 {
 
 	
