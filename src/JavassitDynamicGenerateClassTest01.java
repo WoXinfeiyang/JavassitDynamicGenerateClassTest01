@@ -7,6 +7,7 @@ import javassist.compiler.CompileError;
 /*
  参考资料:https://blog.csdn.net/ShuSheng0007/article/details/81269295
  https://blog.csdn.net/shuzhe66/article/details/39319121
+ https://www.cnblogs.com/baiqiantao/p/10284449.html
  */
 public class JavassitDynamicGenerateClassTest01 {
 	
@@ -56,7 +57,7 @@ public class JavassitDynamicGenerateClassTest01 {
 		
 	}
 	/**
-	 * 修改一个文件(.java、.jar、.class)中某个类的方法
+	 * 修改类中的方法
 	 * @param originFilePath 原始文件路径，通常为.jar文件的加载路径，可以为null。
 	 * @param className	想要修改的类名
 	 * @param methodName	想要修改方法的名称
